@@ -1,0 +1,24 @@
+{
+    "name": "ProjectSpec",
+    "fields": [
+        {
+            "fieldName": "projectId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "specName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20180814165937",
+    "entityTableName": "project_spec",
+    "dto": "mapstruct",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}
