@@ -1,0 +1,28 @@
+entity Project {
+	projectName String,
+    projectId   String
+    
+}
+
+entity ProjectSpec {
+	projectId String,
+    specName String
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+
+
+
+// Set pagination options
+paginate Project, ProjectSpec with infinite-scroll
+
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with mySuffix
